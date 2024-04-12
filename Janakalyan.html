@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The School I Attended</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('color_mockup_1.png');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        /* Navigation Links */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: darkcyan;
+            padding: 10px 20px;
+            border: 2px solid darkcyan;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: darkcyan;
+            color: gold;
+        }
+
+        nav a:focus {
+            outline: none;
+        }
+
+        header {
+            background-color: darkcyan;
+            color: gold;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h3 {
+            padding: 10px;
+            background-color: midnightblue;
+            color: gold;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        a:hover {
+            color: midnightblue;
+        }
+
+        p {
+            margin: 20px;
+            text-align: justify;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            max-width: 100%; /* Ensures images don't overflow their containers */
+        }
+
+        div {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .admission {
+            color: lime;
+            font-size: 18px;
+        }
+
+        .signature {
+            font-style: italic;
+            color: black;
+        }
+
+        footer {
+            background-color: lawngreen;
+            color: #333;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Styling */
+        @media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                display: block;
+                margin: 5px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .admission {
+                font-size: 16px;
+            }
+
+            .signature {
+                font-size: 12px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h3><u>My School Introduction</u></h3>
+    </header>
+    <nav>
+        <a href="Intro.html">Intro</a>
+        <a href="Myhobbies.html">Hobby</a>
+        <a href="Janakalyan.html">My School</a>
+        <a href="Friends.html">Friends</a>
+        <a href="ContactMe.html">Contact Me</a>
+    </nav>
+    <img src="./Pictures/logo_janakalyan.jpg" alt="School logo" height="200" width="200">
+    <p>
+        <b>
+            <font color="black">"Shree Janakalyan Model Secondary School, Tharmare, Salyan"</font>
+        </b>
+    </p>
+    <p align="justify">
+        <font color="black">
+            <br>Shree Janakalyan Model Secondary School in Tharmare, Salyan, Nepal, is a leading educational institution
+            known for its modern facilities and dedicated teachers. It focuses on nurturing students academically,
+            socially, and personally, fostering critical thinking and character development. Through extracurricular
+            activities and community engagement, the school aims to empower students to become responsible citizens.
+        </font>
+    </p>
+    <div>
+        <img src="./Pictures/Janakalyan.jpg" alt="School Image" height="auto" width="400">
+        <img src="./Pictures/embalm-janakalyan.jpg" alt="School Emblem" height="300" width="500">
+    </div>
+    <br>
+    <div class="admission">
+        <u><big>(Admission Open)</big> for Class 1 to 12.</u><br>You can easily join. This school provides quality
+        education for your children, brothers, sisters, etc.
+    </div>
+    <p style="margin-bottom: 80px;" class="signature">* Written by Lalita Kc, 2022</p>
+    <footer>
+        &copy;2024 Lalita Kc | All rights reserved!
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+
+<HEAD>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <TITLE>About Myself</title>
+    <STYLE>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('dong.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        /* Navigation Links */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: darkcyan;
+            padding: 10px 20px;
+            border: 2px solid darkcyan;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: darkcyan;
+            color: gold;
+        }
+
+        nav a:focus {
+            outline: none;
+        }
+
+        h3 {
+            padding: 10px;
+            background-color: lawngreen;
+            color: #333;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        a:hover {
+            color: lawngreen;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        fieldset {
+            border: none;
+            margin-bottom: 50px;
+            padding: 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        /* Button style */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            border: none;
+            transition: background-color 0.3s;
+        }
+
+        /* Button hover effect */
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        /* Optional: Center the button */
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        footer {
+            background-color: lawngreen;
+            color: #333;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Styling */
+        @media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                display: block;
+                margin: 5px;
+            }
+            form {
+                padding: 10px;
+            }
+            input[type="text"],
+            select {
+                width: calc(100% - 16px);
+            }
+            .button {
+                font-size: 14px;
+            }
+        }
+    </STYLE>
+</HEAD>
+
+<BODY>
+    <h3><u>Myself Lalita</u></h3>
+    <br>
+    <nav>
+        <a href="Intro.html">Intro</a>
+        <a href="Myhobbies.html">Hobbies</a>
+        <a href="Janakalyan.html">My School</a>
+        <a href="Friends.html">Friends</a>
+        <a href="ContactMe.html">Contact Me</a>
+    </nav>
+    <h3><b>Who wants to contact me</b></h3>
+
+    <form>
+        <fieldset>
+            <legend><b>Enter your details:</b></legend> <br>
+            <label>Your phone number:</label>
+            <input type="text" name="your_phone_number"><br>
+            <label>Full name:</label>
+            <input type="text" name="full_name"> <br>
+            <label>Your location:</label>
+            <input type="text" name="your_location"> <br>
+            <label>Gender:</label>
+            <input type="checkbox" name="gender"> Male
+            <input type="checkbox" name="gender"> Female
+            <input type="checkbox" name="gender"> Other <br>
+            <hr>
+            <label>Choice village municipal:</label>
+            <select>
+                <option>Bagchaur Municipal</option>
+                <option>Sarada Municipal</option>
+                <option>Kumakh Village Municipal</option>
+                <option>Kupinde Village Municipal</option>
+                <option>Darma Village Municipal</option>
+            </select> <br>
+            <label>Your interest:</label><br>
+            <input type="checkbox" name="interest" value="volleyball"> Volleyball
+            <input type="checkbox" name="interest" value="football"> Football
+            <input type="checkbox" name="interest" value="cricket"> Cricket
+            <input type="checkbox" name="interest" value="basketball"> Basketball
+            <input type="checkbox" name="interest" value="dance"> Dance <br>
+            <input type="checkbox" name="interest" value="sing"> Sing
+            <input type="checkbox" name="interest" value="study"> Study
+
+            <div class="container">
+                <a href="Intro.html" class="button">Contact</a>
+            </div>
+
+        </fieldset>
+    </form>
+    <footer>&copy; 2024 Lalita Kc | All rights reserved</footer>
+</body>
+
+</html>
